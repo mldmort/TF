@@ -11,6 +11,14 @@ print('node1:',node1)
 print('node2:',node2)
 print('node3:',node3)
 
+
+#print("eval:",tf.Tensor.eval(hello)
+exit()
+
+# session types:
+# tf.Session()
+# tf.InterfactiveSession() : The only difference with a regular Session is that an InteractiveSession installs itself as the default session on construction. The methods tf.Tensor.eval and tf.Operation.run will use that session to run ops.
+# So for objects which has eval() and run() defined for them, they need a session as an input but with an interactive session you don't need to pass that session as an input. (tf.constant has an eval() but doesn't have run(), but tf.global_variables_initializer() has a run())
 sess = tf.Session()
 #print(sess.run(node3))
 
