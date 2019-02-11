@@ -11,9 +11,10 @@ print('node1:',node1)
 print('node2:',node2)
 print('node3:',node3)
 
-
-#print("eval:",tf.Tensor.eval(hello)
-exit()
+#sess = tf.InteractiveSession()
+#sess1 = tf.Session()
+#print("eval: ",tf.Tensor.eval(hello))
+#exit()
 
 # session types:
 # tf.Session()
